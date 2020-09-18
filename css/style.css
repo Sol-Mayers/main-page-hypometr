@@ -835,7 +835,7 @@ ul {
 
 @media (min-width: 768px) {
   .links-hyp {
-    font-size: 24px;
+    font-size: 20px;
     margin: 0px;
   }
 
@@ -844,7 +844,7 @@ ul {
   }
 
   .contacts-hyp {
-    font-size: 24px;
+    font-size: 20px;
     margin: 0px;
   }
 }
@@ -1517,5 +1517,22 @@ ul {
   .full-arrow-ver {
     width: 14px;
     height: 14px;
+  }
+}
+.sign-hyp {
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  text-decoration: none;
+  color: #000000;
+  font-family: 'HelveticaNeueCyr';
+  font-weight: 500;
+  font-size: 20px;
+  margin: 0px;
+}
+@media (min-width: 768px) {
+  .sign-hyp {
+    display: flex;
   }
 }
